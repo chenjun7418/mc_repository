@@ -9,7 +9,7 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-eureka-client
-​
+
 eureka:
   instance:
     hostname: eureka7001.com #eureka实例的主机名
@@ -18,12 +18,12 @@ eureka:
     fetch-registry: false #不从eureka上来获取服务的注册信息
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
-​
+
 ---
-​
+
 server:
   port: 7001
-​
+
 spring:
   profiles: test
   application:
